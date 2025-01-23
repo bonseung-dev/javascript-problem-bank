@@ -13,7 +13,7 @@ const age = 25;
 const person = {
   // TODO: introduce 메서드를 작성하세요.
   introduce() {
-    `안녕하세요, 저는 ${name}이고 ${age}입니다.`;
+    return `안녕하세요, 저는 ${name}이고 ${age}입니다.`;
   },
 };
 

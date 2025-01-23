@@ -9,6 +9,13 @@
  * @returns {number}
  */
 function countProperties(obj) {
+  let count = 0;
+  for (const key in obj) {
+    if(obj.hasOwnProperty(key)){
+      count++;
+    }
+  }
+  return count;
   // TODO
 }
 
