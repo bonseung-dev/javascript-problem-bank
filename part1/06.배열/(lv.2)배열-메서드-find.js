@@ -20,10 +20,16 @@
  */
 
 // TODO: findUserByName 함수를 작성하세요.
-function findUserByName() {}
+function findUserByName(users, name) {
+    const user = users.find((user) => user.name === name); // 조건을 반환
+    return user || null;
+}
 
 // TODO: findIndexOf 함수를 작성하세요.
-function findIndexOf() {}
+function findIndexOf(arr, value) {
+    const index = arr.findIndex((element) => element === value); // element와 value를 비교
+    return index;
+}
 
 // export를 수정하지 마세요.
 export { findUserByName, findIndexOf };
